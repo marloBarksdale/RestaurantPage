@@ -4,12 +4,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: "development",
     entry: {
-       index: './src/index.js'
+       index: './src/index.js',
+    //    menu:'./src/menu.js',
+    //    home:'./src/home.js',
+    //    contact:'./contact.js'
     },
 
     plugins: [
            new HtmlWebpackPlugin({
-              title: 'Output Management',
+              title: 'Pfizer Eats: For the Micro-Chipped',
             }),
           ],
     output: {

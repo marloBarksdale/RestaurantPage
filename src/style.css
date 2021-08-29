@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+button{
+
+
+    color: red;
+
+}
+
+
+.top{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bottom{
+
+
+    height: 25vh;
+}
