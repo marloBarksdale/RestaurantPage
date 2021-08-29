@@ -13,14 +13,24 @@ button{
 
 
 .top{
-    height: 60px;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     
 }
 
 .bottom{
-
-
+    
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-size: 3em;
     height: 25vh;
+}
+
+.main-image{
+width: 100vw;
+height: 90vh;
+    object-fit: cover;
+
 }

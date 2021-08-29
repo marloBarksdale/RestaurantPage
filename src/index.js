@@ -1,10 +1,11 @@
 console.log("Hello restaurant");
-import pic from './restaurant1.jpg';
+
 import './style.css';
 
 import { component as contactPage } from "./contact";
 import { component as homePage } from "./home";
 import{component as menuPage} from './menu';
+
 let currentPage = "home"
 
 
@@ -18,6 +19,7 @@ export function component() {
     contactButton.innerHTML = "Contact"
 
     const element = document.createElement('div');
+    element.classList.add("element");
 
     element.appendChild(homePage());
 
@@ -65,6 +67,9 @@ export function component() {
 
     navbar.classList.add("top");
     footer.classList.add("bottom");
+
+    footer.append("About")
+    
     navbar.appendChild(homeButton);
     navbar.appendChild(menuButton);
     navbar.appendChild(contactButton);

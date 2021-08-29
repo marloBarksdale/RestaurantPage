@@ -5,9 +5,9 @@ module.exports = {
     mode: "development",
     entry: {
        index: './src/index.js',
-    //    menu:'./src/menu.js',
-    //    home:'./src/home.js',
-    //    contact:'./contact.js'
+       menu:'./src/menu.js',
+       home:'./src/home.js',
+       contact:'./src/contact.js'
     },
 
     plugins: [
